@@ -19,6 +19,10 @@
 <a href="https://github.com/grvtech1/billfree-techops"><img src="https://img.shields.io/badge/Featured_Project-1F4E79?style=for-the-badge&logo=kubernetes&logoColor=white"/></a>
 <img src="https://komarev.com/ghpvc/?username=grvtech1&label=Profile%20views&color=2E6DA4&style=for-the-badge"/>
 
+<br/><br/>
+
+<img src="https://img.shields.io/badge/%F0%9F%9F%A2%20Open%20to%20Work-DevOps%20%C2%B7%20Cloud%20%C2%B7%20SRE%20%E2%80%94%20Remote%2FHybrid-2ea043?style=for-the-badge"/>
+
 </div>
 
 ---
@@ -48,6 +52,18 @@ class GauravPal:
 ```
 
 > 💡 **Philosophy:** *Boring, repeatable, automated > heroic and manual.* I'd rather fix the pipeline than fix the incident twice.
+
+---
+
+## ⚡ How I Ship
+
+```text
+  git push ─▶ GitHub Actions ─▶ test · build · Trivy scan ─▶ GHCR (image:SHA)
+                                                                  │ bump tags in deploy/ (commit)
+                                                                  ▼
+   AWS EC2  ◀── sync ── ArgoCD ◀── watch ── Git (main)   ·   Prometheus ─▶ Grafana / alerts
+  (kubeadm K8s)                                              CI never touches the cluster — pull-based GitOps
+```
 
 ---
 
@@ -126,6 +142,16 @@ class GauravPal:
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=grvtech1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E6DA4&langs_count=8" alt="top langs"/>
 
 <img src="https://github-profile-trophy.vercel.app/?username=grvtech1&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies"/>
+
+</div>
+
+---
+
+## 🐍 Contribution Graph
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/grvtech1/grvtech1/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
 
 </div>
 

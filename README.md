@@ -33,7 +33,7 @@
 class GauravPal:
     def __init__(self):
         self.role       = "DevOps / Cloud Engineer"
-        self.location   = "Indore, India  (open to Noida / Hybrid)"
+        self.location   = "Noida, India  (open to Remote / Hybrid)"
         self.experience = "2.5+ yrs Cloud & Automation · 5.5+ yrs IT Ops"
         self.focus      = "Ship reliably → automate everything → sleep well"
 

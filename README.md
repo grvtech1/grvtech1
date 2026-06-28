@@ -61,7 +61,8 @@ resource "devops_engineer" "gaurav_pal" {
 
 ## 🚩 Flagship Project — **BillFree TechOps**
 
-> A cloud-native microservices platform built end-to-end and **proven live on AWS**.
+> Tech-support ticketing + analytics for BillFree's POS-integration team — built as a cloud-native, microservices: a React SPA
+A cloud-native microservices platform built end-to-end and **proven live on AWS**.
 
 [![BillFree TechOps](https://github-readme-stats.vercel.app/api/pin/?username=grvtech1&repo=billfree-techops&theme=react&hide_border=true&bg_color=0a2540&title_color=58a6ff&icon_color=58a6ff)](https://github.com/grvtech1/billfree-techops)
 

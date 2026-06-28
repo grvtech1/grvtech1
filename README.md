@@ -77,6 +77,23 @@ resource "devops_engineer" "gaurav_pal" {
 
 ---
 
+## ⭐ Featured Project — **VANTA Boutique**
+
+> A cloud-native, **polyglot microservices** e-commerce store — **12 services over gRPC**, extended end-to-end with a brand-new microservice of my own.
+
+[![VANTA Boutique](https://github-readme-stats.vercel.app/api/pin/?username=grvtech1&repo=VANTA-Boutique&theme=react&hide_border=true&bg_color=0a2540&title_color=58a6ff&icon_color=58a6ff)](https://github.com/grvtech1/VANTA-Boutique)
+
+- **12 microservices in 6 languages** (Go · C# · Node.js · Python · Java) talking over **gRPC + Protocol Buffers**
+- 🆕 **Built a Reviews microservice** (Go/gRPC) end-to-end — *proto → service → container → K8s → CI/CD* — with a pluggable **in-memory ↔ PostgreSQL** store behind a single `Store` interface
+- **Production-hardened**: graceful shutdown (SIGTERM drain), gRPC size/keepalive limits, **DB-driven gRPC health**, `distroless:nonroot` images, dedicated **NetworkPolicy**
+- **Kubernetes + Kustomize** (base + overlays + opt-in Postgres component) — runs on **local kind** or **AWS EC2** via **ArgoCD** GitOps
+- **CI/CD** with GitHub Actions — `go vet`, **race-detector tests** with a Postgres service container, multi-service Docker builds, **Trivy** scan
+- Custom **VANTA** dark-glassmorphism storefront — accessible reviews UI (ARIA) + **schema.org JSON-LD** for rich snippets
+
+🔗 **[Explore the repo →](https://github.com/grvtech1/VANTA-Boutique)**
+
+---
+
 ## 🛠️ Tech Stack
 
 #### ☁️ Cloud & Infrastructure
